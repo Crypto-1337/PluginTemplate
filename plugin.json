@@ -1,5 +1,6 @@
 {
-    "name": "Plugin",
+    
+    "name": "Plugin name for PHAR building and loading",
     "version": "1.0.0",
     "main": {
         "path": "src/Plugin.php",
