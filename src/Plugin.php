@@ -15,9 +15,9 @@ class MainClass extends PluginBase
 
     //You can create your own event handling:
     public function onTableCreate(string $executor, string $name) : void {
-        $this->GetLogger()->Plugin($this->GetName(), "A table has been created: " . $name)
+        $this->GetLogger()->Plugin($this->GetName(), "A table has been created: " . $name);
     }
     public function onTableDelete(string $executor, string $name) : void {
-        $this->GetLogger()->Plugin($this->GetName(), "A table has been deleted: " . $name)
+        $this->GetLogger()->Plugin($this->GetName(), "A table has been deleted: " . $name);
     }
 }
